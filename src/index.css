@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+    color: red;
+    font-size: 2rem;
+    background-color: #42b983;
+}

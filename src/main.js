@@ -4,6 +4,8 @@ import App from './App.vue'
 import './index.css'
 import Home from '/src/views/Home.vue'
 import Login from '/src/views/Login.vue'
+import ForgotPassword from '/src/views/ForgotPassword.vue'
+
 
 //create router
 const router = createRouter({
@@ -18,6 +20,11 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/forgot-password',
+      name: 'forgot-password',
+      component: ForgotPassword
     }
   ]
 })

@@ -6,4 +6,5 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <router-view></router-view>
+  <router-link to="/Login"></router-link>
 </template>

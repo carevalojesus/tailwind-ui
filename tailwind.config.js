@@ -6,6 +6,10 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      serif: ["Georgia", "serif"],
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -21,6 +25,11 @@ module.exports = {
       'info': {
         500 : '#3dd7f3',
         900 : '#007eb1',
+      },
+      'blue': {
+        100: '#f3f8fe',
+        500 : '#00b0ff',
+        900 : '#005599',
       },
       'danger': {
         500 : '#ff4453',
@@ -42,6 +51,9 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+      },
+      gridTemplateRows: {
+        board: '50px 1fr',
       }
     },
   },

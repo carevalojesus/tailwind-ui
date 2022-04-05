@@ -54,6 +54,7 @@ module.exports = {
       },
       gridTemplateRows: {
         board: '50px 1fr',
+        app: '70px 1fr',
       }
     },
   },
